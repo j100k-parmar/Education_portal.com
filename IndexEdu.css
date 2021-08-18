@@ -1,0 +1,703 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: #D7D6D6 !important;
+}
+
+
+/* ...........................................Education courses page..................................................... */
+
+.slider_new img {
+    width: 80%;
+    height: 80vh;
+}
+
+.abc {
+    width: 80%;
+    margin: auto;
+}
+
+
+/* .topicbar {
+    overflow: auto;
+    white-space: nowrap;
+} */
+
+.topic {
+    width: 350px;
+    height: 100px;
+    background-color: white;
+    margin-left: 50px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.txt {
+    width: 100%;
+    height: 60%;
+    background-color: #faf5f5;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.txt_1 span {
+    font-size: 18px;
+    font-weight: 500;
+    padding: 5px 0;
+}
+
+.row1 {
+    width: 100%;
+    /* height: 500px; */
+    margin: auto;
+    /* background-color: darkorange; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.col1 {
+    width: 32%;
+    /* height: 600px; */
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0px 7px 0 gray;
+    margin-top: 20px;
+}
+
+.img_contain {
+    width: 100%;
+    height: 250px;
+    position: relative;
+    /*  background-image: url('https://d28rtuv7aawte3.cloudfront.net/uploads/thumbnails/course_thumbnails/course_thumbnail_efanew_42.jpg');
+    background-size: cover;
+    background-position: -20px 0;*/
+    /* background-color: coral; */
+}
+
+.img_contain img {
+    width: 100%;
+    height: 100%;
+}
+
+.listing_tab {
+    width: 90%;
+    margin: auto;
+    padding-top: 20px;
+    box-sizing: border-box;
+    /*transform:translate(0px,-250px)*/
+    position: absolute;
+    top: 0;
+    left: 15px;
+}
+
+.wish {
+    width: 50px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.486);
+    border-radius: 25px;
+    padding: 9px 13px;
+    font-size: 22px;
+}
+
+.wish i {
+    color: #c2c0c0;
+    transition: .5s;
+}
+
+.wish:hover i {
+    color: salmon;
+    transform: scale(1.1);
+}
+
+.txt_1 {
+    width: 100%;
+    display: inline-block;
+}
+
+.txt_1 span {
+    color: red;
+}
+
+.txt_2 i {
+    color: rgb(255, 187, 0);
+}
+
+.txt_2 p {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    line-height: 1.2;
+}
+
+.txt_2 span {
+    font-weight: 600;
+    color: #424242;
+}
+
+.lesson {
+    width: 80%;
+    margin: auto;
+    color: #7e7b7b;
+    font-weight: 100;
+    /* background-color: darkorchid; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    margin: 25px auto;
+    font-size: 13px;
+}
+
+.lesson h5 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #424242;
+}
+
+.submit_foot {
+    width: 100%;
+    /* background-color: coral; */
+}
+
+.s_1,
+.s_2 {
+    display: inline-block;
+}
+
+.s_1 span {
+    color: #7A7C7E;
+}
+
+.s_1 p {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.s_2 {
+    float: right;
+}
+
+.s_2 button {
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+@media only screen and (max-width:430px) {
+    .col1 {
+        width: 100%;
+        margin: 20px 0;
+    }
+}
+
+
+/* ...........................................end of Education courses page..................................................... */
+
+.parent2 {
+    width: 100%;
+    height: 450vh;
+    /* background-color: violet; */
+    padding: 50px 0 50px 80px;
+    /* border-top-left-radius: 60px;
+    border-top-right-radius: 60px; */
+    position: relative;
+    box-sizing: border-box;
+    background-image: url('https://www.wallpapersin4k.org/wp-content/uploads/2017/04/Plain-Color-Wallpaper-HD-5.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 420px;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+}
+
+
+/* ...........................................Education course Details..................................................... */
+
+.Parent_container {
+    /*width: 90%;*/
+    /* height: 500vh; */
+    background-color: white;
+    margin: auto;
+    border-radius: 60px;
+    position: relative;
+    /* overflow: hidden; */
+}
+
+.menu {
+    width: 88%;
+    margin: auto;
+    padding: 10px;
+}
+
+nav {
+    width: 90%;
+    margin: auto;
+    display: inline-block;
+}
+
+nav a {
+    text-decoration: none;
+    color: #364996;
+}
+
+.menu span {
+    float: right;
+    font-size: 25px;
+    margin-top: 10px;
+    color: #364996;
+}
+
+nav input {
+    margin: 0 10px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid gray;
+}
+
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 0 10px;
+    font-weight: 700;
+}
+
+.sub_left_container {
+    width: 60%;
+    /* height: 600px; */
+    /* background-color: teal; */
+    float: left;
+}
+
+.sub_right_container {
+    width: 100%;
+    height: 600px;
+    /* float: right; */
+    /* background-color: tomato; */
+    position: sticky;
+    top: 20px;
+    /* bottom: 0; */
+}
+
+.card_container {
+    width: 30%;
+    height: 100%;
+    /* background-color: chartreuse; */
+    float: right;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+
+.head_txt {
+    color: white;
+}
+
+.head_txt h3 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.head_txt2 button {
+    padding: 2px 20px;
+    border-radius: 20px;
+    color: rgb(104, 29, 1);
+    font-weight: 500;
+}
+
+
+/*
+    .head_txt2 button:hover{
+        background-color:transparent;
+        border:3px solid orange;
+    }*/
+
+.head_txt2 span i {
+    color: rgb(255, 187, 0);
+}
+
+.head_txt2,
+.head_txt3 span {
+    color: white;
+    margin: 10px 10px;
+}
+
+.head_txt4 button {
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: transparent;
+    color: white;
+    padding: 5px;
+    width: 130px;
+    margin: 10px;
+    transition: .5s;
+}
+
+.head_txt4 button:hover {
+    background-color: white;
+    color: Black;
+}
+
+.W_Learn {
+    width: 100%;
+    overflow: auto;
+    /* background-color: violet; */
+    margin-top: 50px;
+    border: 1px solid #D7D6D6;
+    border-radius: 20px;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.W_Learn h3 {
+    font-weight: 600;
+}
+
+.W_Learn p {
+    color: #979797;
+}
+
+.W_Learn i {
+    color: #4FDC67;
+}
+
+.learn {
+    border: none;
+    padding: 40px 0;
+}
+
+.check_box {
+    width: 50%;
+    float: left;
+    padding: 20px 0;
+}
+
+.W_Learn img {
+    margin-top: 20px;
+}
+
+.course {
+    width: 100%;
+    overflow: auto;
+    /* background-color: deepskyblue; */
+    margin-top: 20px;
+    padding: 40px 0;
+    box-sizing: border-box;
+}
+
+.course h3 {
+    font-weight: 600;
+}
+
+.course p {
+    color: #838383;
+    padding: 10px 0;
+}
+
+.accordion {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.accordion h2 b {
+    color: rgb(55, 55, 245);
+    font-size: 19px;
+}
+
+.accordion-button {
+    background-color: #f1f1f1 !important;
+}
+
+.feedback {
+    width: 100%;
+    background-color: floralwhite;
+    margin-top: 20px;
+    padding: 40px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.feedback p {
+    font-weight: 600;
+}
+
+.feedback h2 {
+    font-size: 55px;
+    color: deepskyblue;
+    font-weight: 700;
+}
+
+.feedback i {
+    color: #F56752;
+}
+
+.progress {
+    width: 70%;
+    margin-top: 10px;
+    height: 10px !important;
+}
+
+.progress-bar {
+    background-color: deepskyblue !important;
+}
+
+.Reviews {
+    width: 100%;
+    height: 500px;
+    /* background-color: gray; */
+    margin-top: 20px;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.Reviews h4 {
+    font-weight: 600 !important;
+}
+
+.Reviews span {
+    color: #838383;
+}
+
+.Reviews h3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.review_box p {
+    color: #838383;
+}
+
+.Reviews i {
+    color: #F56752;
+}
+
+.review_box {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    border-bottom: 1px solid #D7D6D6;
+    padding-top: 30px;
+}
+
+.Reviews h4 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.Reviews button {
+    width: 100%;
+    border: 1px solid deepskyblue;
+    border-radius: 20px;
+    background-color: transparent;
+    color: black;
+    padding: 10px;
+    margin: 10px;
+    font-weight: 500;
+}
+
+.Reviews button:hover {
+    background-color: deepskyblue;
+    color: white;
+}
+
+.font_img {
+    width: 50px;
+    height: 50px;
+    background-color: dodgerblue;
+    border-radius: 25px;
+    padding: 0px 13px;
+    font-weight: 500;
+    font-size: 35px;
+}
+
+
+/* .....................................Responsive............................................. */
+
+
+/* ...............................edu.html page............................................ */
+
+@media only screen and (max-width:1030px) {
+    .col1 {
+        width: 32%;
+        margin: 30px 0;
+    }
+    .txt_2 p {
+        font-size: 18px;
+    }
+    .lesson {
+        font-size: 12px;
+    }
+    .lesson h5 {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width:770px) {
+    .row1 {
+        width: 55%;
+        flex-direction: column;
+    }
+    .col1 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .lesson {
+        font-size: 14px;
+    }
+    .lesson h5 {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width:430px) {
+    .row1 {
+        width: 90%;
+        flex-direction: column;
+    }
+}
+
+
+/* ...............................Cource_details.html page............................................ */
+
+@media only screen and (max-width:1030px) {
+    nav input {
+        width: 190px;
+    }
+    nav ul li {
+        padding: 0 4px;
+    }
+    .Parent_container {
+        width: 98%;
+    }
+    .parent2 {
+        height: 600vh;
+    }
+    .head_txt h3 {
+        font-size: 36px;
+    }
+    .feedback {
+        padding: 40px 0;
+    }
+    .progress {
+        width: 63%;
+    }
+    .sub_right_container .row1 .col1 {
+        margin: 0;
+    }
+    .sub_right_container {
+        top: 8px;
+    }
+    .sub_right_container .lesson {
+        margin: 13px auto;
+    }
+    .sub_right_container .txt {
+        padding: 2px 15px;
+    }
+}
+
+@media only screen and (max-width:770px) {
+    .card_container {
+        display: none;
+    }
+    .sub_left_container {
+        width: 90%;
+        margin: auto;
+    }
+    nav ul {
+        margin: 10px 0px;
+    }
+    .progress {
+        width: 65%;
+    }
+}
+
+@media only screen and (max-width:430px) {
+    nav ul {
+        margin: 10px 0px;
+        width: 315px;
+    }
+    nav input {
+        width: 200px;
+    }
+    .parent2 {
+        padding: 50px 10px;
+        margin: auto;
+        height: 650vh;
+    }
+    .sub_left_container {
+        width: 100%;
+        margin: auto;
+    }
+    .head_txt h3 {
+        font-size: 27px;
+    }
+    .feedback {
+        padding: 40px 0;
+    }
+    .feedback .w-25 {
+        width: 40% !important;
+    }
+    .progress {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width:380px) {
+    nav input {
+        width: 145px;
+    }
+}
+
+
+/* slider */
+
+.slider {
+    width: 80%;
+    margin: 100px auto;
+}
+
+.slick-slide {
+    margin: 0px 20px;
+}
+
+.slick-slide img {
+    width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: black;
+}
+
+.slick-slide {
+    transition: all ease-in-out .3s;
+    /* opacity: .2; */
+}
+
+.sub {
+    width: 213px;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.sub img {
+    width: 70px;
+    height: 70px;
+}
+
+.sub p {
+    font-size: 15px;
+    padding-right: 30px;
+    font-weight: bold5
+}
