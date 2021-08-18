@@ -686,7 +686,7 @@ nav ul li {
 }
 
 .sub {
-    width: 213px;
+    /* width: 300px; */
     padding: 20px;
     border-radius: 30px;
 }
@@ -694,10 +694,4 @@ nav ul li {
 .sub img {
     width: 70px;
     height: 70px;
-}
-
-.sub p {
-    font-size: 15px;
-    padding-right: 30px;
-    font-weight: bold5
 }
